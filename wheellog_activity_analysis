@@ -1,0 +1,4 @@
+#!/bin/bash
+cd $(dirname $(realpath "$0"))
+
+.env/bin/python wheellog_activity_analysis.py "$@"
