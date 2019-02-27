@@ -152,3 +152,19 @@ Current
     2.13  ┤│                                                    ╰╮│                                                    │
     0.01  ┼╯                                                     ╰╯                                                    ╰
 ```
+
+# Exporting CSV / GPX
+
+With the addition of the "command" argument, one can specify one of a few actions:
+
+### analyze
+
+Same as analysis explantion above.
+
+### gpx
+
+Epxorts a GPX file by the same name as the CSV file.
+
+### csv
+
+Exports the original CSV file.
